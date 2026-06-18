@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+/* Paleta "Barbearia Vintage": verde-escuro + dourado envelhecido */
+@theme {
+    --color-bg-base: #0E1F18;       /* fundo principal, verde quase preto */
+    --color-bg-surface: #16291F;    /* cards e superfícies elevadas */
+    --color-accent: #C9A24B;        /* dourado envelhecido - cor de destaque */
+    --color-accent-dark: #A6822F;   /* dourado escuro, hover de botões */
+    --color-accent-light: #EDE3C8;  /* marfim, texto sobre fundo escuro */
+    --color-text-muted: #9CA89E;    /* texto secundário, verde-acinzentado */
+    --color-border-subtle: rgba(201, 162, 75, 0.2);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(12px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+

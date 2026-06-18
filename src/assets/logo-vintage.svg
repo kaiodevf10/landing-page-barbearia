@@ -1,0 +1,28 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer ring -->
+  <circle cx="60" cy="60" r="57" fill="#10241C" stroke="#C9A24B" stroke-width="2.5"/>
+  <circle cx="60" cy="60" r="50" fill="none" stroke="#C9A24B" stroke-width="1" opacity="0.6"/>
+
+  <!-- Top arc text -->
+  <path id="topArc" d="M 22 50 A 38 38 0 0 1 98 50" fill="none"/>
+  <text font-family="Georgia, 'Times New Roman', serif" font-size="9.5" font-weight="600" fill="#C9A24B" letter-spacing="2">
+    <textPath href="#topArc" startOffset="50%" text-anchor="middle">BARBEARIA</textPath>
+  </text>
+
+  <!-- Straight razor icon, centered -->
+  <g transform="translate(60,63) rotate(-40)">
+    <rect x="-30" y="-3.5" width="36" height="7" rx="1.5" fill="#EDE3C8"/>
+    <path d="M 6 -4.5 L 22 -4.5 L 28 0 L 22 4.5 L 6 4.5 Z" fill="#C9A24B"/>
+    <circle cx="-34" cy="0" r="6" fill="#C9A24B"/>
+  </g>
+
+  <!-- Bottom arc text -->
+  <path id="bottomArc" d="M 25 88 A 38 38 0 0 0 95 88" fill="none"/>
+  <text font-family="Georgia, 'Times New Roman', serif" font-size="9.5" font-weight="600" fill="#C9A24B" letter-spacing="2">
+    <textPath href="#bottomArc" startOffset="50%" text-anchor="middle">VINTAGE</textPath>
+  </text>
+
+  <!-- Small decorative dots -->
+  <circle cx="18" cy="60" r="1.8" fill="#C9A24B"/>
+  <circle cx="102" cy="60" r="1.8" fill="#C9A24B"/>
+</svg>
