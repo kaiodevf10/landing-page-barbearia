@@ -16,9 +16,9 @@ export function Button({
 
   const variantStyles = {
     primary:
-      "bg-accent hover:bg-accent-dark text-white shadow-lg hover:shadow-xl",
+      "bg-white hover:bg-accent-dark text-bg-base shadow-lg hover:shadow-xl",
     secondary:
-      "bg-transparent border-2 border-accent text-accent hover:bg-accent hover:text-white",
+      "bg-transparent border-2 border-text-muted text-text-muted hover:border-white hover:text-white",
   };
 
   return (
